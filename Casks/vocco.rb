@@ -1,8 +1,8 @@
 # Vocco 的 Homebrew Cask。version/sha256 由 Vocco/scripts/release.sh 发版时自动改写，
 # 改完需在本仓库 git commit + push 才对用户生效（DMG 先上线，tap 后推，避免 404）。
 cask "vocco" do
-  version "1.0.5"
-  sha256 "67bfafd5741ec8b5434c6af61420b717e5486334d340cead4b440ce204471857"
+  version "1.0.7"
+  sha256 "dfeed56cdfd04071b9c82d8aae033159cfa8404da9ebeacc0899762bc3d9c5d3"
 
   url "https://vocco.co/updates/Vocco-#{version}.dmg"
   name "Vocco"
